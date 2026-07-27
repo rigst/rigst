@@ -2,7 +2,7 @@
 
 Sistemas web em Python e Django, do código à operação.
 
-Parto do problema real — modelo o fluxo, a estrutura de dados e as regras de negócio — e só então começo a construir. Prefiro menos peças, bem escolhidas, a empilhar ferramenta sobre ferramenta. E como sou eu quem opera os sistemas depois do deploy, cada decisão de código é tomada pensando em quem vai mantê-los estáveis em produção.
+Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de negócio, e só então começo a construir. Prefiro menos peças, bem escolhidas, a empilhar ferramenta sobre ferramenta. E como sou eu quem opera os sistemas depois do deploy, cada decisão de código é tomada pensando em quem vai mantê-los estáveis em produção.
 
 ---
 
@@ -42,7 +42,7 @@ Parto do problema real — modelo o fluxo, a estrutura de dados e as regras de n
 
 ## Infraestrutura
 
-Os sistemas rodam em VPS Linux com deploy próprio — Nginx, Gunicorn, HTTPS, domínios e processos todos sob meu controle. Cuido de toda a operação: do primeiro deploy à manutenção do dia a dia.
+Os sistemas rodam em VPS Linux com deploy próprio. Nginx, Gunicorn, HTTPS, domínios e processos todos sob meu controle. Cuido de toda a operação: do primeiro deploy à manutenção do dia a dia.
 
 ---
 
