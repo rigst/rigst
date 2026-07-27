@@ -11,7 +11,7 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 | # | Projeto | Descrição | Licença |
 |---|---------|-----------|---------|
 | 01 | [Trilhas de Estudo](https://trilhas.stolben.com) | IA monta trilha completa: níveis, conteúdo sob demanda, exercícios e avaliações corrigidas automaticamente | Proprietário |
-| 02 | [Divisor de PDF](https://divisor.stolben.com) | Envie PDFs, comprima e divida em partes menores — download em PDF único ou ZIP | AGPL-3.0 |
+| 02 | [Divisor de PDF](https://divisor.stolben.com) | Envie PDFs, comprima e divida em partes menores: download em PDF único ou ZIP | AGPL-3.0 |
 | 03 | [Sistema de Orçamentos](https://orcamentos.stolben.com) | Cadastro de clientes, catálogo de itens e montagem de orçamentos do rascunho ao documento final | AGPL-3.0 |
 | 04 | [Sistema Finanças](https://financas.stolben.com) | Lançamentos por categoria com saldo e histórico mês a mês | AGPL-3.0 |
 | 05 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | AGPL-3.0 |
