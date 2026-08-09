@@ -8,13 +8,14 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 
 ## Projetos publicados
 
-| # | Projeto | Descrição | Licença |
-|---|---------|-----------|---------|
-| 01 | [Trilhas de Estudo](https://trilhas.stolben.com) | IA monta trilha completa: níveis, conteúdo sob demanda, exercícios e avaliações corrigidas automaticamente | Proprietário |
-| 02 | [Divisor de PDF](https://divisor.stolben.com) | Envie PDFs, comprima e divida em partes menores: download em PDF único ou ZIP | AGPL-3.0 |
-| 03 | [Sistema de Orçamentos](https://orcamentos.stolben.com) | Cadastro de clientes, catálogo de itens e montagem de orçamentos do rascunho ao documento final | AGPL-3.0 |
-| 04 | [Sistema Finanças](https://financas.stolben.com) | Lançamentos por categoria com saldo e histórico mês a mês | AGPL-3.0 |
-| 05 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | AGPL-3.0 |
+| # | Projeto | Descrição | Código | Licença |
+|---|---------|-----------|--------|---------|
+| 01 | [Trilhas de Estudo](https://trilhas.stolben.com) | IA monta trilha completa: níveis, conteúdo sob demanda, exercícios e avaliações corrigidas automaticamente | [sistema_trilhas](https://github.com/rigst/sistema_trilhas) | AGPL-3.0 |
+| 02 | [A.R.Q.](https://arq.stolben.com) | Gestão para escritórios de arquitetura: briefing, proposta, contrato, fases, agenda e financeiro num fluxo só | [sistema_arq](https://github.com/rigst/sistema_arq) | AGPL-3.0 |
+| 03 | [Divisor de PDF](https://divisor.stolben.com) | Envie PDFs, comprima e divida em partes menores: download em PDF único ou ZIP | [divisor_pdf](https://github.com/rigst/divisor_pdf) | AGPL-3.0 |
+| 04 | [Sistema de Orçamentos](https://orcamentos.stolben.com) | Cadastro de clientes, catálogo de itens e montagem de orçamentos do rascunho ao documento final | [sistema_orcamentos](https://github.com/rigst/sistema_orcamentos) | AGPL-3.0 |
+| 05 | [Sistema Finanças](https://financas.stolben.com) | Lançamentos por categoria com saldo e histórico mês a mês | [sistema_financas](https://github.com/rigst/sistema_financas) | AGPL-3.0 |
+| 06 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | [sistema_questoes](https://github.com/rigst/sistema_questoes) | AGPL-3.0 |
 
 ---
 
@@ -43,6 +44,16 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 ## Infraestrutura
 
 Os sistemas rodam em VPS Linux com deploy próprio. Nginx, Gunicorn, HTTPS, domínios e processos todos sob meu controle. Cuido de toda a operação: do primeiro deploy à manutenção do dia a dia.
+
+---
+
+## Qualidade
+
+Os projetos compartilham um único pipeline de CI, em [rigst/ci](https://github.com/rigst/ci) — cada repositório tem um arquivo de dez linhas que o chama, em vez de uma cópia divergente. Ajuste feito lá vale para todos de uma vez.
+
+A cada push, em paralelo: lint e formatação (`ruff`), testes com cobertura (`pytest`), análise de segurança do código (`bandit`), auditoria de CVE nas dependências (`pip-audit`), varredura de segredos em todo o histórico (`gitleaks`), `check --deploy` e verificação de migrações pendentes do Django, e agregação no SonarQube Cloud.
+
+Cobertura publicada no Codecov; bugs, code smells e duplicação no SonarQube Cloud. A adoção é gradual por projeto: cada etapa entra reportando e passa a bloquear quando o passivo dela zera.
 
 ---
 
