@@ -16,6 +16,7 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 | 04 | [Sistema de Orçamentos](https://orcamentos.stolben.com) | Cadastro de clientes, catálogo de itens e montagem de orçamentos do rascunho ao documento final | [sistema_orcamentos](https://github.com/rigst/sistema_orcamentos) | AGPL-3.0 |
 | 05 | [Sistema Finanças](https://financas.stolben.com) | Lançamentos por categoria com saldo e histórico mês a mês | [sistema_financas](https://github.com/rigst/sistema_financas) | AGPL-3.0 |
 | 06 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | [sistema_questoes](https://github.com/rigst/sistema_questoes) | AGPL-3.0 |
+| 07 | [Sistema Vetorial](https://vetorial.stolben.com) | Editor visual de modelos em PDF e geração em lote de certificados e documentos a partir de planilhas | [sistema_vetorial](https://github.com/rigst/sistema_vetorial) | AGPL-3.0 |
 
 ---
 
