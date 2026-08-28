@@ -17,6 +17,7 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 | 05 | [Sistema Finanças](https://financas.stolben.com) | Lançamentos por categoria com saldo e histórico mês a mês | [sistema_financas](https://github.com/rigst/sistema_financas) | AGPL-3.0 |
 | 06 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | [sistema_questoes](https://github.com/rigst/sistema_questoes) | AGPL-3.0 |
 | 07 | [Sistema Vetorial](https://vetorial.stolben.com) | Editor visual de modelos em PDF e geração em lote de certificados e documentos a partir de planilhas | [sistema_vetorial](https://github.com/rigst/sistema_vetorial) | AGPL-3.0 |
+| 08 | [Dojo](https://dojo.stolben.com) | Mentoria de programação passo a passo: a IA monta o plano em etapas, guia o que fazer e por quê, e revisa o código sem escrever por você | [dojo](https://github.com/rigst/dojo) | AGPL-3.0 |
 
 ---
 
