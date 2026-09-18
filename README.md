@@ -18,6 +18,7 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 | 06 | [Estudo por Questões](https://questoes.stolben.com) | Importe PDFs de provas, aplique IA sobre as questões e gere relatórios de estudo | [sistema_questoes](https://github.com/rigst/sistema_questoes) | AGPL-3.0 |
 | 07 | [Sistema Vetorial](https://vetorial.stolben.com) | Editor visual de modelos em PDF e geração em lote de certificados e documentos a partir de planilhas | [sistema_vetorial](https://github.com/rigst/sistema_vetorial) | AGPL-3.0 |
 | 08 | [Dojo](https://dojo.stolben.com) | Mentoria de programação passo a passo: a IA monta o plano em etapas, guia o que fazer e por quê, e revisa o código sem escrever por você | [dojo](https://github.com/rigst/dojo) | AGPL-3.0 |
+| 09 | [Dracma](https://dracma.stolben.com) | Assistente financeira no Telegram: conte o gasto por texto, áudio, foto ou PDF e ela categoriza, registra, divide a conta da casa e avisa antes de o limite estourar | [dracma](https://github.com/rigst/dracma) | AGPL-3.0 |
 
 ---
 
@@ -30,6 +31,7 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
+![HTMX](https://img.shields.io/badge/htmx-3366CC?style=flat&logo=htmx&logoColor=white)
 
 **Infraestrutura**
 
@@ -50,6 +52,11 @@ Parto do problema real, modelo o fluxo, a estrutura de dados e as regras de neg�
 **IA**
 
 ![Claude](https://img.shields.io/badge/Claude-Anthropic-D97757?style=flat)
+![faster-whisper](https://img.shields.io/badge/faster--whisper-local-5A5A5A?style=flat)
+
+**Mensageria**
+
+![Telegram Bot API](https://img.shields.io/badge/Telegram%20Bot%20API-26A5E4?style=flat&logo=telegram&logoColor=white)
 
 ---
 
